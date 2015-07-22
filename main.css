@@ -21,7 +21,8 @@ h1,
 
 /* Use descendent selectors */
 div p {
-   font-style: italic;
+    font-style: italic;
+    font-size: 2em;
 }
 
 
