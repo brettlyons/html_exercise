@@ -5,24 +5,30 @@ h1 {
 
   /* Select by classname */
 .header-alt {
-    border-bottom: 2px solid red;
+    background: green;
+    border-bottom: 16px solid red;
 }
 
    /* Select a single element by its ID */
 #header-primary {
    text-transform: uppercase;
+   color: yellow;
+   background: black;
 }
 
 /* Select all H1s AND all .header-alts */
 h1,
 .header-alt {
-   border-top: 2px solid blue;
+   border-top: 16px solid blue;
 }
 
 /* Use descendent selectors */
 div p {
     font-style: italic;
-    font-size: 2em;
+    font-size: 1em;
+    text-align: right;
+    padding-left: 50%;
+    margin-right: 10%;
 }
 
 
