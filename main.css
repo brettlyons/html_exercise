@@ -2,7 +2,11 @@
 h1 {
    color: red;
 }
-
+#owl {
+    float: right;
+    padding-left: 50%;
+    padding-right: 50%;
+}
   /* Select by classname */
 .header-alt {
     background: green;
@@ -31,6 +35,10 @@ div p {
     margin-right: 10%;
 }
 
-
 /* Target all p's and a's inside of divs */
-div p, div a {}
+#outside {
+    text-align:left;
+    padding-right:50%;
+    background: black;
+    color: white;
+}
